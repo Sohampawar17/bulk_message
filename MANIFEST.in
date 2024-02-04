@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bulk_message *.css
+recursive-include bulk_message *.csv
+recursive-include bulk_message *.html
+recursive-include bulk_message *.ico
+recursive-include bulk_message *.js
+recursive-include bulk_message *.json
+recursive-include bulk_message *.md
+recursive-include bulk_message *.png
+recursive-include bulk_message *.py
+recursive-include bulk_message *.svg
+recursive-include bulk_message *.txt
+recursive-exclude bulk_message *.pyc
